@@ -4,5 +4,12 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version"]
   }
 }
