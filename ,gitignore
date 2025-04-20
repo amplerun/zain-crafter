@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+
+# Google credentials or sensitive files
+credentials.json
+service-account.json
+
+# MongoDB Configuration
+MONGO_URI=mongodb+srv://arjunjayesh:arjunjayesh2004@zaincrafter.qj3zmcn.mongodb.net/?retryWrites=true&w=majority&appName=zaincrafter
+
+# Firebase Configuration
+FIREBASE_API_KEY=AIzaSyA9th1isJDESx87Mlxl0F5s661iF4GUBxw
+FIREBASE_AUTH_DOMAIN=zain-crafter.firebaseapp.com
+FIREBASE_PROJECT_ID=zain-crafter
+FIREBASE_STORAGE_BUCKET=zain-crafter.appspot.com
+FIREBASE_MESSAGING_SENDER_ID=732763988827
+FIREBASE_APP_ID=1:732763988827:web:e1798bb19eb0bbca1c707e
+FIREBASE_MEASUREMENT_ID=G-41Q3ZC24NC
+
+# JWT Configuration
+JWT_SECRET=a3l4kakoaeld2jxa6i3tvzt0anp79kkurbj0xzzgr47a3q8ukfije7ela9xrsjyc
+JWT_EXPIRE=30d
+
+# Google Sheets API
+GOOGLE_SHEETS_CLIENT_EMAIL=sheets-access@zain-crafter.iam.gserviceaccount.com
+GOOGLE_SHEETS_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCAx5Cte4cugUS\nsmG0hqZVMHv3kBJxsudveKt+wnQiaJQ9Qb7c8soMDdAjLo/4p3wqGhsgRtnvKr+t\n5DrTlyydealjfQRT9yekb8z6M/YtwbFpLNM6KQERiKhGBqpkP9nzMEKLlleba6tA\naG0VbN+qG3HSiwAB7MHVwHEPxdnW910aHM9XRm6q+9PWxJhQHqHYXW5e/cNzgVJc\nrI4y6meHGLkbp1wHiL94gHFjQhDEXY+fTJAPKN9Jzg744VMzlbfeKt3KWykK4Aq6\n0a7WaLXbTNZTDS2qXI1IuHa0n8L+JU4zvzB57cJsEiiQQRKHY+2jJQN8lev70H2L\nzEl9YmW/AgMBAAECggEASYWL/KTcEMfPr1epHhPeya6/c8AFtU+iU8RrXPSMtRNj\nhdk53polRi8f3o1BIu45Z+0PtYoUAYX2MIwqXM/PqPeXYOvZ7YXeYHq7t19knc9m\nj2BcxZAPZxkeB7dz79ygl/+EYEh/d5b0RUqtd+6Tze9rkWl6fcA+bmXokp0cIdFf\ny/uXmpTDPVlg0Xr4kGGon/N2I86AvrlHJI4weD9U58RBkpMJLrWPjx1xThc+ymu3\npbcYQid6z86BR0OeY45NBuH/ElSAPDUzsgE8eyogOCUV/qBIvFOSaigbcYFlvudS\nTOwVvJtpx5R1iU7EvryjzeJKxQQymU4RJWy98nwe8QKBgQDn5SINV65e7Yrcwqhn\nTPMGCU/WFB1Ch1cKcCq/d+EXD1+opOLGL8LHo1n4K2PSHc3jJN2WmxlnrWQpOhny\nZVfXtWxU9geB2+3yEfL741siSGQtp5FAQSlcS1pboAxvprXOBYVzJHxorkvaRO5n\n6/biznxM3pnb/SVlLmPbgUWc8QKBgQDWLeYxW3LKTNkBZezt+2v112QouRTkgQvG\nvNMldhgz0OjiTAPcx179esAp/J5FOv+9XkpnDHrS1mMCzNrvh/inDpvJizEm77kp\nfCu1fHXcp09dVozFlJJ20ASiAOTzXL5OnOWNzrvA7DbN4wu6OTLeoroYjcKsJzZj\n9mnNSJHtrwKBgQDZaZYXdFFjZsp+V3KUBy0CR9C2IX2dVk5g1vD9OmOqvxssfgqv\nTTANBDXh2qxn3tGdWH74KMoUzhfOH08cV6+X6dx7e39mXNAl2HY7etmCtuRVeXlR\nCMbCZVN9+/ws4dwqIDsRzO9nJaKwLVhnzm9WDcm0OC+AdUKOLoQo1HZzwQKBgQCl\n0luKkzbIkb7hajyJ9EKdz+ln7gPS9mZbtA31zvzmATSNIDVNVb6hmcv1tfQDva4K\nu1n3dp4RZpK5tEk9cpR9Ir5SyEWB09AT4mMk2/uUnqS/qybKQkEzY9JyaybXlFJz\nIt5HcGvE7h1wQfzubSKJZIuYPwkdqC5gLoOzwB/bWQKBgG2IA+Ik2zvS7c6CNs9+\nv6hlEm5BmKXlMkKhtsIBkEMHLf/1SELDD2vwcMhnJvn//aXyIfgO96YDfVOXxdO9\nAel+i4vdsIl2Dag5lNOW84AFmadUL/X13k6dqV9aAeMrD/wNPORx5k3cjJtPJjGF\nMsOPDWQlLZa/1SYRMpaEeVIN\n-----END PRIVATE KEY-----\n
+GOOGLE_SHEETS_SHEET_ID="e7c075c4edcad755afadae0d4565430f90288ff3"
+
+# WhatsApp 360Dialog API
+WHATSAPP_API_KEY=your_whatsapp_api_key
+WHATSAPP_API_URL=https://waba.360dialog.io/v1
+
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# Build files
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
