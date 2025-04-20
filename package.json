@@ -1,10 +1,13 @@
 {
   "name": "zain-crafter",
   "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["client"],
   "scripts": {
     "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build",
-    "install-all": "npm install && cd client && npm install"
+    "build": "cd client && yarn build",
+    "install": "yarn --frozen-lockfile"
   },
   "engines": {
     "node": ">=18.0.0"
